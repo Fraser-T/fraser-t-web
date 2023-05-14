@@ -1,38 +1,48 @@
-*{
-    outline: 1px red solid;
-}
+/*
+Useful resources:
+https://www.svgbackgrounds.com
+https://neumorphism.io
+
+*/
 
 body{
     margin:0;
     padding:0;
-    height: 100%;
-    width: 100%;
+    height: vh;
+    width: vw;
     /*background: linear-gradient( rgba(16, 16, 51, 0.5), rgba(16, 16, 51, 0.5) ), url(../content/mainBG.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
     */
     background-image: url(../content/mainBG.webp);
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar{
     height: 10vh;
     background-color: rgba(32,32,58,120);
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.navbar img{
-    margin-left: 50%;
+
+.mainIcon{
     height: 100%;   
 }
 
 .navbuttons{
-    display: flex;
+    position: absolute;
+    right:0;
+    display: inline-block;
     justify-content: center;
     align-items: center;
 }
 
 .navbar a{
+    margin: 3px;
     color: white;
     font-family: sans-serif;
     font-weight: bold;
