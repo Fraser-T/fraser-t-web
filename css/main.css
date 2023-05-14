@@ -1,9 +1,13 @@
 /*
-Useful resources:
-https://www.svgbackgrounds.com
-https://neumorphism.io
-
+https://cssportal.com
+https://www.svgbackgrounds.com/
+https://neumorphism.io/#521ce9
 */
+
+
+*{
+    outline: 1px red solid;
+}
 
 body{
     margin:0;
