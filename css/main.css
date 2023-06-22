@@ -5,24 +5,23 @@ https://neumorphism.io/#521ce9
 https://uiverse.io
 */
 
-
-*{
-    outline: 1px red solid;
+* {
+    font-family: sans-serif;
 }
+
 
 body{
     margin:0;
-    padding:0;
-    height: vh;
-    width: vw;
+    padding: 0;
     /*background: linear-gradient( rgba(16, 16, 51, 0.5), rgba(16, 16, 51, 0.5) ), url(../content/mainBG.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
     */
-    background-image: url(../content/mainBG.webp);
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: rgb(20, 19, 31);
 }
 
 .navbar{
@@ -49,7 +48,34 @@ body{
 .navbar a{
     margin: 3px;
     color: white;
-    font-family: sans-serif;
     font-weight: bold;
     text-decoration: underline;
+}
+
+article{
+    outline: 3px green solid;
+    flex-grow: 1;
+    background-image: url(../content/background.png);
+    background-size:cover;
+    background-position: bottom;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(19, 40, 74);
+    display: inline-block;
+}
+
+footer *{
+    color: white;
+}
+
+#footerquicklinks{
+    position: absolute;
+    right:0;
+}
+
+#footerquicklinks ul{
+    list-style-type: square;
 }
