@@ -1,0 +1,97 @@
+/*
+https://cssportal.com
+https://www.svgbackgrounds.com/
+https://neumorphism.io/#521ce9
+https://uiverse.io
+*/
+
+* {
+    font-family: sans-serif;
+    color:white;
+}
+
+
+body{
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20, 19, 31);
+}
+
+.navbar{
+    height: 10vh;
+    background-color: rgba(32,32,58,120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.mainIcon{
+    height: 100%;   
+}
+
+.navbuttons{
+    padding-right: 5px;
+    position: absolute;
+    right:0;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a{
+    margin: 3px;
+    padding: 2px;
+    font-weight: bold;
+    text-decoration: underline;
+
+    transition: 0.2s all ease-in-out;
+    background-color: rgba(0, 0,0,0);
+}
+
+.navbar a:hover{
+    border-radius: 3px;
+    background-color: white;
+    color:black;
+}
+
+article{
+    padding: 10%;
+    flex-grow: 1;
+    display: flex;
+}
+
+.articlepod{
+    background-color: rgb(32,32,58);
+    width: fit-content;
+    height:fit-content;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.articlepod h2{
+    margin: 0;
+}
+
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(19, 40, 74);
+    display: inline-block;
+}
+
+
+/*
+#footerquicklinks{
+    position: absolute;
+    right:0;
+}
+
+#footerquicklinks ul{
+    list-style-type: square;
+}
+*/
